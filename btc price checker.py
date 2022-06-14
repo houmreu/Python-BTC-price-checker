@@ -16,3 +16,4 @@ while True:
     currentBTCPrice = get_price("BTC", "USD")
     if currentBTCPrice:
         print(date_time, "Price:", currentBTCPrice["USD"], "$")
+        time.sleep(1)
